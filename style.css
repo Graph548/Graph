@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Lilita One;
+}
+
+header{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 15%;
+    justify-content: space-between;
+    font-family: Lilita One;
+    background-color: #042c29;
+    
+.logo{
+    font-family: Lilita One;
+    font-size: 30px;
+    color: rgb(255, 158, 158);
+}
+
+}
+header a{
+    margin-right: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    font-family: Lilita One;
+    color: rgb(214, 207, 191);
+    align-items: center;
+    display: flex;
+    align-content: center;
+    padding: 2%;
+    flex-direction: column;
+    background-image: url("fon.jpg");
+    background-repeat: repeat;
+    height:1000px;
+
+#n2 {
+    color: yellow;  
+    display: flex;
+    justify-content: center;
+}
+
+#n3 {
+    display: flex;
+    justify-content: start;
+    width: 1000px;
+    color: rgb(54, 144, 196);
+    border: 2px solid blue;
+}
+
+#i1 {
+    height: 567px;
+}
+
+}
+footer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 15%;
+    justify-content: space-between;
+    font-family: Lilita One;
+    background-color: #838383;
+}

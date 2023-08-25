@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style1.css">
+    <title>Practice</title>
+</head>
+<body>
+<div class="wrapper">
+    <!--Поле для информации пользователя-->
+    <h2 class="wrapper__title">Зарегиструйтесь чтобы не потерять информацию!</h2>
+    <form class="form" action="https://echo.htmlacademy.ru/">
+        <div class="user">
+            <ul class="user-info">
+                <li class="user-info__item">
+                    <!--Вставь сюда label для ФИО-->
+                    <label for="name">Придумайте Имя!</label>
+                    <input type="text" id="name" name="name" required>
+                </li>
+                <li class="user-info__item">
+                    <!--Вставь сюда label для почты-->
+                    <label for="email">Добавьте Email</label>
+                    <input type="email" id="email" required>
+                </li>
+            </ul>
+            <!--Поля для адреса и даты-->
+            <ul class="address-date">
+                <li class="user-info__item">
+                    <!--Вставь сюда label для адреса-->
+                    <label for="address">Придумайте пароль!</label>
+                    <input type="text" name="address" id="address" required>
+                </li>
+                <li class="user-info__item">
+                    <!--Вставь сюда label для даты заказа-->
+                    <label for="date">Повторите пароль!</label>
+                    <input type="text" name="date" id="date" required>
+                </li>
+            </ul>
+        </div>
+        <div class="delivery">
+            <ul class="delivery-info">
+                <h3 class="delivery__title">Соглашаетесь на правила сайта?</h3>
+                <li class="delivery-info__item">
+                    <!--Вставь сюда label для способа доставки-->
+                    <input type="radio" name="radio" id="date" required>
+                    <label for="radio1">ДА!</label>
+                </li>
+                <li class="delivery-info__item">
+                    <!--Вставь сюда label для способа доставки-->
+                    <input type="radio" name="radio" id="radio2" required>
+                    <label for="radio2">ДА!</label>
+                </li>
+                </li>
+            </ul>
+            <ul class="delivery-info">
+                <h3 class="delivery__title">Выберете доп.услуги</h3>
+                <li class="delivery-info__item">
+                    <input type="checkbox" name="checkbox1" id="checkbox1">
+                    <label for="checkbox1">Соглашаюсь на рассылку!</label>
+                </li>
+                <li class="delivery-info__item">
+                    <!--Вставь сюда label для доп услуг-->
+                    <input type="checkbox" name="checkbox2" id="checkbox2">
+                    <label for="checkbox2">Не соглашаюсь на рассылку!</label>
+                </li>
+            </ul>
+        </div>
+        <button tupe="submit">Зарегистрироваться!!!</button>
+    </form>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
